@@ -21,9 +21,6 @@
 <hr>
 
 <h3>VIEWS<h3><br>
-Login : <br>
-![login](https://cloud.githubusercontent.com/assets/13658670/25091198/0481a174-23b2-11e7-9876-5039d50ac949.png) <br><br>
-
 Menu Utama : <br>
 ![menuutama](https://cloud.githubusercontent.com/assets/13658670/25091202/084c38dc-23b2-11e7-9fba-7cdab3a15b64.png)
  <br><br>
