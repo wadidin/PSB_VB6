@@ -34,6 +34,8 @@
 4. Tentang : <br>
 ![tentang](https://cloud.githubusercontent.com/assets/13658670/25091207/0d192d0c-23b2-11e7-8a60-8ca2f3d1a89a.png) <br><br>
 
+<hr>
+
 5. Laporan Rayon : <br>
 ![laprayon](https://cloud.githubusercontent.com/assets/13658670/25091212/11e567c4-23b2-11e7-9468-7a4e34ff1314.png) <br><br>
 
