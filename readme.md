@@ -35,12 +35,12 @@
 ![tentang](https://cloud.githubusercontent.com/assets/13658670/25091207/0d192d0c-23b2-11e7-8a60-8ca2f3d1a89a.png) <br><br>
 
 5. Laporan Rayon : <br>
-(https://cloud.githubusercontent.com/assets/13658670/25091212/11e567c4-23b2-11e7-9468-7a4e34ff1314.png) <br><br>
+![laprayon](https://cloud.githubusercontent.com/assets/13658670/25091212/11e567c4-23b2-11e7-9468-7a4e34ff1314.png) <br><br>
 
 6. Laporan Calon : <br>
-(https://cloud.githubusercontent.com/assets/13658670/25091215/1638d72a-23b2-11e7-8442-5444a9122364.png) <br><br>
+![lapcalon](https://cloud.githubusercontent.com/assets/13658670/25091215/1638d72a-23b2-11e7-8442-5444a9122364.png) <br><br>
 
 7. Laporan Siswa : <br>
-(https://cloud.githubusercontent.com/assets/13658670/25091216/1bf350b4-23b2-11e7-8850-b8a6a3bab960.png) <br><br>
+![lapsiswa](https://cloud.githubusercontent.com/assets/13658670/25091216/1bf350b4-23b2-11e7-8850-b8a6a3bab960.png) <br><br>
 
 <hr>
