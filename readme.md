@@ -22,7 +22,7 @@
 
 <h3>VIEWS<h3><br>
 Loading : <br>
-![japage](https://cloud.githubusercontent.com/assets/13658670/25094633/4b72c256-23c2-11e7-907f-af25ef0e7bd7.png) <br><br>
+![lll](https://cloud.githubusercontent.com/assets/13658670/25091518/c99ad524-23b3-11e7-99c5-1d7162c23e11.png) <br><br>
 
 Login : <br>
 ![login](https://cloud.githubusercontent.com/assets/13658670/25091198/0481a174-23b2-11e7-9876-5039d50ac949.png) <br><br>
