@@ -22,7 +22,7 @@
 
 <h3>VIEWS<h3><br>
 1. Loading : <br>
- <br><br>
+![loading](https://cloud.githubusercontent.com/assets/13658670/25091187/0032a514-23b2-11e7-9b22-9f1429f5cd78.png) <br><br>
 
 2. Login : <br>
 ![login](https://cloud.githubusercontent.com/assets/13658670/25091198/0481a174-23b2-11e7-9876-5039d50ac949.png) <br><br>
