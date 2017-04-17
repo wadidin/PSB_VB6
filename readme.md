@@ -5,19 +5,19 @@
 <br>
 
 
-<h3> FORM : </h4><br>
-1. Form Login
-2. Form Menu Utama (MDIForm)
-3. Form Rayon (MDIChild)
-4. Form Calon Siswa Baru (MDIChild)
-5. Form Siswa yang diterima (MDIChild) <br>
+<h3> FORM : </h3><br>
+1. Form Login<br>
+2. Form Menu Utama (MDIForm)<br>
+3. Form Rayon (MDIChild)<br>
+4. Form Calon Siswa Baru (MDIChild)<br>
+5. Form Siswa yang diterima (MDIChild) <br><br>
 
 
-<h3> Crystal Report :</h3>
-1. Laporan Rayon
-2. laporan Calon Siswa
-3. Laporan Siswa yang diterima <br>
+<h3> Crystal Report :</h3><br>
+1. Laporan Rayon<br>
+2. laporan Calon Siswa<br>
+3. Laporan Siswa yang diterima <br><br>
 
 <hr>
 
-<h3>View :<h3>
+<h3>View :<h3><br>
