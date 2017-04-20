@@ -125,7 +125,7 @@ Begin VB.MDIForm MenuUtama
             Style           =   6
             Alignment       =   1
             Text            =   "Jam"
-            TextSave        =   "03/04/2017"
+            TextSave        =   "19/04/2017"
             Key             =   ""
             Object.Tag             =   ""
             Object.ToolTipText     =   "Tanggal"
@@ -133,7 +133,7 @@ Begin VB.MDIForm MenuUtama
          BeginProperty Panel2 {0713E89F-850A-101B-AFC0-4210102A8DA7} 
             Style           =   5
             Alignment       =   1
-            TextSave        =   "09.49"
+            TextSave        =   "21.37"
             Key             =   ""
             Object.Tag             =   ""
             Object.ToolTipText     =   "Jam"
@@ -178,47 +178,43 @@ Begin VB.MDIForm MenuUtama
       BeginProperty Images {0713E8C2-850A-101B-AFC0-4210102A8DA7} 
          NumListImages   =   7
          BeginProperty ListImage1 {0713E8C3-850A-101B-AFC0-4210102A8DA7} 
-            Picture         =   "MenuUtama.frx":9A887
+            Picture         =   "MenuUtama.frx":9D4F2
             Key             =   "lgSekolah"
          EndProperty
          BeginProperty ListImage2 {0713E8C3-850A-101B-AFC0-4210102A8DA7} 
-            Picture         =   "MenuUtama.frx":9B0A1
+            Picture         =   "MenuUtama.frx":9DD0C
             Key             =   "lgCalon"
          EndProperty
          BeginProperty ListImage3 {0713E8C3-850A-101B-AFC0-4210102A8DA7} 
-            Picture         =   "MenuUtama.frx":9B8BB
+            Picture         =   "MenuUtama.frx":9E526
             Key             =   "lgSiswa"
          EndProperty
          BeginProperty ListImage4 {0713E8C3-850A-101B-AFC0-4210102A8DA7} 
-            Picture         =   "MenuUtama.frx":9C0D5
+            Picture         =   "MenuUtama.frx":9ED40
             Key             =   "lgLapSekolah"
          EndProperty
          BeginProperty ListImage5 {0713E8C3-850A-101B-AFC0-4210102A8DA7} 
-            Picture         =   "MenuUtama.frx":9C8EF
+            Picture         =   "MenuUtama.frx":9F55A
             Key             =   "lgLapCalon"
          EndProperty
          BeginProperty ListImage6 {0713E8C3-850A-101B-AFC0-4210102A8DA7} 
-            Picture         =   "MenuUtama.frx":9D109
+            Picture         =   "MenuUtama.frx":9FD74
             Key             =   "lgLapSiswa"
          EndProperty
          BeginProperty ListImage7 {0713E8C3-850A-101B-AFC0-4210102A8DA7} 
-            Picture         =   "MenuUtama.frx":9D923
+            Picture         =   "MenuUtama.frx":A058E
             Key             =   "lgTentang"
          EndProperty
       EndProperty
    End
    Begin VB.Menu mnFile 
       Caption         =   "&File"
-      Begin VB.Menu mnPengguna 
-         Caption         =   "&Pengguna"
-         Shortcut        =   ^P
-      End
-      Begin VB.Menu mnJeda1 
-         Caption         =   "-"
-      End
       Begin VB.Menu mnLogOut 
          Caption         =   "Log &Out"
          Shortcut        =   ^O
+      End
+      Begin VB.Menu mnJeda1 
+         Caption         =   "-"
       End
       Begin VB.Menu mnKeluar 
          Caption         =   "&Keluar"
@@ -314,7 +310,7 @@ End Sub
 
 Private Sub mnLapCalon_Click()
     LaporanCalon.ReportFileName = App.Path + "\LapCalon.Rpt"
-    LaporanRayon.DiscardSavedData = True
+    LaporanCalon.DiscardSavedData = True
     LaporanCalon.Destination = crptToWindow
     LaporanCalon.WindowState = crptMaximized
     LaporanCalon.PrintReport
@@ -330,7 +326,7 @@ End Sub
 
 Private Sub mnLapSiswa_Click()
     LaporanSiswa.ReportFileName = App.Path + "\LapSiswa.Rpt"
-    LaporanRayon.DiscardSavedData = True
+    LaporanSiswa.DiscardSavedData = True
     LaporanSiswa.Destination = crptToWindow
     LaporanSiswa.WindowState = crptMaximized
     LaporanSiswa.PrintReport

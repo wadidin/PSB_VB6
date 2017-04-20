@@ -339,7 +339,7 @@ Begin VB.Form FormCalon
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         Format          =   95485953
+         Format          =   52690945
          CurrentDate     =   42820
       End
       Begin MSComCtl2.DTPicker DTPicker_Lahir 
@@ -360,7 +360,7 @@ Begin VB.Form FormCalon
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         Format          =   95485953
+         Format          =   52690945
          CurrentDate     =   42820
       End
       Begin XtremeSuiteControls.Label Label_DeskripsiNEM 
@@ -1300,7 +1300,7 @@ Private Sub PB_Batal_Click()
     Call TombolAwal
     
     'DataGrid di refresh
-    DG_Calon.Refresh
+    Call DataTable
 End Sub
 
 Private Sub PB_Cari_Click()
@@ -1323,6 +1323,9 @@ Private Sub PB_Cari_Click()
     ElseIf Combo_Pencarian.ListIndex = 5 Then
         Adodc1.RecordSource = "SELECT * FROM tbl_calon WHERE rayon like '%" & TB_Cari.Text & "%'"
         Adodc1.Refresh
+    ElseIf Adodc1.EOF = True Then
+        MsgBox "Maaf, Data yang kamu cari tidak ada !", vbOKOnly, "Informasi"
+        Call DataTable
     End If
 End Sub
 

@@ -311,7 +311,7 @@ Begin VB.Form FormSiswa
             Italic          =   0   'False
             Strikethrough   =   0   'False
          EndProperty
-         Format          =   95813633
+         Format          =   52690945
          CurrentDate     =   42820
       End
       Begin XtremeSuiteControls.Label Label_OrTu 
@@ -1112,7 +1112,7 @@ Private Sub PB_Batal_Click()
     Call TombolAwal
     
     'DataGrid di refresh
-    DG_Siswa.Refresh
+    Call DataTable
 End Sub
 
 Private Sub PB_Cari_Click()
@@ -1132,6 +1132,9 @@ Private Sub PB_Cari_Click()
     ElseIf Combo_Pencarian.ListIndex = 4 Then
         Adodc1.RecordSource = "SELECT * FROM tbl_siswa WHERE tempat_lahir like '%" & TB_Cari.Text & "%'"
         Adodc1.Refresh
+    ElseIf Adodc1.EOF = True Then
+        MsgBox "Maaf, Data yang kamu cari tidak ada !", vbOKOnly, "Informasi"
+        Call DataTable
     End If
 End Sub
 

@@ -678,7 +678,7 @@ Private Sub PB_Batal_Click()
     Call TombolAwal
     
     'DataGrid di refresh
-    DG_Rayon.Refresh
+    Call DataTable
 End Sub
 
 Private Sub PB_Cari_Click()
@@ -692,6 +692,9 @@ Private Sub PB_Cari_Click()
     ElseIf Combo_Pencarian.ListIndex = 2 Then
         Adodc1.RecordSource = "SELECT * FROM tbl_rayon WHERE rayon like '%" & TB_Cari.Text & "%'"
         Adodc1.Refresh
+    ElseIf Adodc1.EOF = True Then
+        MsgBox "Maaf, Data yang kamu cari tidak ada !", vbOKOnly, "Informasi"
+        Call DataTable
     End If
 End Sub
 
